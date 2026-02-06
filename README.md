@@ -1,6 +1,6 @@
 # CODA-Prompt 的 Jittor 复现说明
 
-本仓库基于原始 [CODA-Prompt](https://arxiv.org/abs/2211.00337) 代码，对其完整逻辑进行 [Jittor](https://cg.cs.tsinghua.edu.cn/jittor/) 框架的重写，实现与 PyTorch 版本一致的持续学习流程，同时满足国产框架本地运行的需求。
+本仓库基于原始 [CODA-Prompt](https://arxiv.org/abs/2211.13218) 代码，对其完整逻辑进行 [Jittor](https://cg.cs.tsinghua.edu.cn/jittor/) 框架的重写，实现与 PyTorch 版本一致的持续学习流程，同时满足国产框架本地运行的需求。
 
 ## 核心特性
 
