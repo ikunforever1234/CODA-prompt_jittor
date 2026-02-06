@@ -1,0 +1,19 @@
+cupy_cuda11x==12.3.0
+jittor==1.3.8.5
+numpy==1.23.5
+Pillow==12.1.0
+PyYAML==6.0.3
+six==1.17.0
+timm==0.4.12
+
+cd /home/syl/lab/CODA-Prompt && conda run -n dl python -u -m coda_jittor.run --config configs/imnet-r_2task.yaml --gpuid 0 --repeat 1 --overwrite 1 --learner_type prompt --learner_name CODAPrompt --prompt_param 100 8 0.0 --log_dir outputs/imnet/imnet-r_2task
+
+在配置文件中补充
+model_kwargs:
+  img_size: 224
+  patch_size: 16
+  embed_dim: 768
+  depth: 12
+  num_heads: 12
+
+就可以恢复原模型深度
