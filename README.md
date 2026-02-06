@@ -140,7 +140,3 @@ conda run -n dl python -u -m coda_jittor.run \
   year={2020}
 }
 ```
-
-## 许可证
-
-Jittor 版本继承原 CODA-Prompt 仓库的许可证条款，详见仓库根目录的 `LICENSE` 文件。
